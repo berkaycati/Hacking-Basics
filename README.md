@@ -19,7 +19,7 @@ tool ismi -h
 komutlarını kullanabilirsiniz. 
 
 
-![Denemefoto](https://camo.githubusercontent.com/barbaroskp/Kali_Linux_Commands/main/C:\Users\barca\OneDrive\Masaüstü\images\p2.jpeg)
+![Denemefoto](https://camo.githubusercontent.com/barbaroskp/Kali_Linux_Commands/main/images/p2.jpeg)
 
 Bu parametreler genelde kullanılan fonksiyonun uzun ismi için çift tire “—“ baş harfi için tek tire “-“ şeklinde kullanılır ve help de bunlardan birisidir. Örneğin macchanger toolu için:
  
