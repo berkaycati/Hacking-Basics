@@ -18,9 +18,8 @@ veya
 tool ismi -h 
 komutlarını kullanabilirsiniz. 
 
-<img src="C:\Users\barca\Downloads\p2.jpeg" width="350" alt="accessibility text">
 
-
+![C:\Users\barca\Downloads\p2.jpeg](https://raw.githubusercontent.com/barbaroskp/Kali_Linux_Commands/main/C:\Users\barca\Downloads\p2.jpeg)
 
 Bu parametreler genelde kullanılan fonksiyonun uzun ismi için çift tire “—“ baş harfi için tek tire “-“ şeklinde kullanılır ve help de bunlardan birisidir. Örneğin macchanger toolu için:
  
