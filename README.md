@@ -18,8 +18,7 @@ veya
 tool ismi -h 
 komutlarını kullanabilirsiniz. 
 
-<img src="C:\Users\barca\Downloads\p2.jpeg" width="350" alt="accessibility text">
-</p>
+<img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
 
 
 
