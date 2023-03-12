@@ -33,7 +33,7 @@ Kali makinamızı çalıştırdığımızda kali.org sitesinden indirilmesi gere
 apt get upgrade
 apt get update
 çalıştırmak önemlidir. 
-
+ 
 Bulunduğumuz konum altındaki herhangi bir dosyayı açmak, içine girmek için kullanacağımız komut:
 cd
 
