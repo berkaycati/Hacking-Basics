@@ -19,7 +19,7 @@ tool ismi -h
 komutlarını kullanabilirsiniz. 
 
 
-![denemefoto](https://raw.githubusercontent.com/barbaroskp/Kali_Linux_Commands/main/p2.jpg)
+![denemefoto](https://raw.githubusercontent.com/barbaroskp/Kali_Linux_Commands/main/images/p2.jpg)
 
 Bu parametreler genelde kullanılan fonksiyonun uzun ismi için çift tire “—“ baş harfi için tek tire “-“ şeklinde kullanılır ve help de bunlardan birisidir. Örneğin macchanger toolu için:
  
