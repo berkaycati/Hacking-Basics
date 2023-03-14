@@ -90,7 +90,7 @@ Bulunduğumuz konumdaki bir dosyanın içeriğini satır numaraları ile birlikt
 cat -n
  
 Bulunduğumuz konumdaki bir dosyanın içeriğini satır sonlarını işaretleyerek okumamızı kolaylaştırarak terminale yazdırmak ve okumak için:
-==cat -E==
+'==cat -E=='
 
 Bulunduğumuz dosyadaki bir kelimeyi filtrelemek ve içerisinde geçen yerleri ekrana getirmek için:
  cat dosyaadi | grep aranacakkelime
