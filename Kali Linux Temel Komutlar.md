@@ -47,7 +47,9 @@ Klasörün aynı zamanda özelliklerini görüntülemek için:
 ls -la
 Bu komutu kullandığımız zaman dosya isminin yanında gözüken -r(readable)-w(writable) anlamına gelir. Bu klasöre mevcut yetkilerimiz ile yazabilir veya okuyabilir olduğumuzu belirtir. 
 Örneğin:
- 
+
+![p2](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p1.png)
+
 Bu çıktıda, "dosya.txt" dosyası "rw-" karakterleri ile başlıyor. Bu, dosyanın sahibinin (kullanıcı) hem okuma hem de yazma izni olduğunu, ancak diğer kullanıcıların sadece okuma iznine sahip olduğunu gösterir. Bu nedenle, sahibi dosyayı hem okuyabilir hem de değiştirebilirken, diğer kullanıcılar sadece dosyayı okuyabilirler. Buradaki kullanıcı yazan kısım root veya diğer bir kullanıcıyı ifade eder. 
 
 Bulunduğumuz konum klasördeki gizli dosyaları görmek için:
