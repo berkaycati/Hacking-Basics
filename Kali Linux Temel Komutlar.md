@@ -20,7 +20,7 @@ komutlarını kullanabilirsiniz.
 
 Bu parametreler genelde kullanılan fonksiyonun uzun ismi için çift tire “—“ baş harfi için tek tire “-“ şeklinde kullanılır ve help de bunlardan birisidir. Örneğin macchanger toolu için:
  
-![p1](https://raw.githubusercontent.com/barbaroskp/Kali_Linux_Commands/images/p1.png)
+![p1](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p1.png)
  
 burada da gördüğünüz gibi örneğin toolun versiyonu için macchanger –version veya kısaltması olarak macchanger -v komutları eşdeğerdir. 
 Bu kullanım hemen hemen her tool ve program için aynı şekilde yazılır. 
