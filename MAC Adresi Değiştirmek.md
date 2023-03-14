@@ -2,7 +2,7 @@
 
 MAC adresi, bir ağ arabirim kartının benzersiz tanımlayıcısıdır ve cihazların birbirleriyle iletişim kurabilmesi için kullanılır. Bu adresler genellikle cihazların üretildiği sırada ve üretici tarafından atanır ve kalıcıdır. MAC adresleri, ağdaki cihazların kimlik doğrulaması ve yetkilendirilmesi için kullanılabileceği gibi, ağ trafiği izleme, hata ayıklama ve diğer amaçlar için de kullanılabilir. Ancak, MAC adresleri sadece yerel ağda kullanılır.
 Kali Linux’ta MAC adresi değiştirmek:
-1.	Terminali açın ve "ifconfig_**" komutunu girin. Bu komut, mevcut ağ bağlantılarınızı ve MAC adreslerinizi gösterir.
+1.	Terminali açın ve "**_ifconfig_**" komutunu girin. Bu komut, mevcut ağ bağlantılarınızı ve MAC adreslerinizi gösterir.
 
 2.	Değiştirmek istediğiniz ağ bağlantısının adını (genellikle "eth0" veya "wlan0") not edin.
 
