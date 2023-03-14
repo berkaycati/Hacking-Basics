@@ -152,7 +152,9 @@ nano açılacak_dosyanın_ismi
 dosya içine yazılacak text
 
 **_Ctrl O_**
+
 **_Enter_**
+
 **_Ctrl X_**
 
 Terminal penceresine sığmayan metinleri daha rahat okuyabilmek için:
