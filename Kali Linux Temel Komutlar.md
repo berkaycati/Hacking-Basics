@@ -37,7 +37,7 @@ Bulunduğumuz konum altındaki herhangi bir dosyayı açmak, içine girmek için
 **_cd_**
 
 Bulunduğumuz dosya konumundan bir önceki konuma dönmek için kullanacağımız komut:
-cd ..
+**_cd .._**
 
 
 Girdiğimiz klasörün içerisindeki dosya-klasörleri görüntülemek için:
