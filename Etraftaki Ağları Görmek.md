@@ -14,7 +14,7 @@ monitor moda geçirir.
 modu managed moda geçirir.
 
 Monitör moda geçtikten sonra etrafımızdaki ağları görmek için:
-**_airodump-ng wlan0mon _**
+**_airodump-ng wlan0mon_**
 
 Etraftaki tüm kablosuz ağları bulur ve onlar hakkında bilgiler verir. bu bilerin başında BSSID bize onların MAC adresini listeler.Bunun yanındaki PwR kısmı bize ne kadar yakınsa o kadar yüksek gözükür.
 ESSID ise wifi'ın adıdır. CH kanalı gösterir. ENC şifreleme işlemi bilgisidir. 
