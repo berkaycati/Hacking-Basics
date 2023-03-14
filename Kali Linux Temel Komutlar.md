@@ -34,17 +34,22 @@ apt get update
 çalıştırmak önemlidir. 
 
 Bulunduğumuz konum altındaki herhangi bir dosyayı açmak, içine girmek için kullanacağımız komut:
+
 **_cd_**
 
 Bulunduğumuz dosya konumundan bir önceki konuma dönmek için kullanacağımız komut:
+
 **_cd .._**
 
 
 Girdiğimiz klasörün içerisindeki dosya-klasörleri görüntülemek için:
-ls
+
+**_ls_**
 
 Klasörün aynı zamanda özelliklerini görüntülemek için:
-ls -la
+
+**_ls -la_**
+
 Bu komutu kullandığımız zaman dosya isminin yanında gözüken -r(readable)-w(writable) anlamına gelir. Bu klasöre mevcut yetkilerimiz ile yazabilir veya okuyabilir olduğumuzu belirtir. 
 Örneğin:
 
@@ -53,99 +58,135 @@ Bu komutu kullandığımız zaman dosya isminin yanında gözüken -r(readable)-
 Bu çıktıda, "dosya.txt" dosyası "rw-" karakterleri ile başlıyor. Bu, dosyanın sahibinin (kullanıcı) hem okuma hem de yazma izni olduğunu, ancak diğer kullanıcıların sadece okuma iznine sahip olduğunu gösterir. Bu nedenle, sahibi dosyayı hem okuyabilir hem de değiştirebilirken, diğer kullanıcılar sadece dosyayı okuyabilirler. Buradaki kullanıcı yazan kısım root veya diğer bir kullanıcıyı ifade eder. 
 
 Bulunduğumuz konum klasördeki gizli dosyaları görmek için:
-ls –a 
+
+**_ls –a _**
 
 İçinde bulunduğumuz konuma yeni bir klasör oluşturmak için:
-mkdir  klasör ismi
+
+**_mkdir_**  klasör ismi
 
 İçinde bulunduğumuz konumdaki bir dosyayı silmek için:
-rm -r dizin adı 
+
+**_rm -r_** dizin adı 
+
 Örneğin masaüstündeki test isimli bir klasörü silmek için:
-rm -r /root/Desktop/test
+
+**_rm -r_** /root/Desktop/test
 
 
 Dosya dolu da olsa boş da olsa zorla silmek için:
-rm -rf
+
+**_rm -rf_**
+
 bu komut kullanıldığında geri dönüşüm kutusunda veya başka bir yerde tekrar kurtarulamaz. Dikkatli kullanmak gerekir. 
 
 
 Bulunduğumuz dizini(pathwayi) öğrenmek için:
-pwd
+
+**_pwd_**
  
 ![p3](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p3.jpeg)
 
 Kullandığımız işletim sistemi ve versiyonu gibi işletim sistemi bilgilerini öğrenmek için:
-uname -a
+
+**_uname -a_**
+
 Örneğin:
  
 ![p4](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p2.jpg)
 
 Bulunduğumuz konumdaki bir dosyanın içeriğini terminale yazdırmak ve okumak için:
-cat dosya ismi
+
+**_cat_** dosya ismi
+
 Örneğin:
  
 ![p5](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p4.jpeg)
 
 Bulunduğumuz konumdaki bir dosyanın içeriğini satır numaraları ile birlikte terminale yazdırmak ve okumak için:
-cat -n
+
+**_cat -n_**
  
 Bulunduğumuz konumdaki bir dosyanın içeriğini satır sonlarını işaretleyerek okumamızı kolaylaştırarak terminale yazdırmak ve okumak için:
-==cat== -E
+
+**_cat -E_**
 
 Bulunduğumuz dosyadaki bir kelimeyi filtrelemek ve içerisinde geçen yerleri ekrana getirmek için:
- cat dosyaadi | grep aranacakkelime
+
+**_cat_** dosyaadi | grep aranacakkelime
+
 Örneğin:
  
 ![p6](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p5.jpeg)
 
 Bulunduğumuz konumdaki bir dosyayı kopyalamak için
-cp
+
+**_cp_**
+
 Bulunduğumuz konumdaki bir dosyanın içerisindeki alt dizinle birlikte kopyalamak için:
-cp -R
+
+**_cp -R_**
+
 içi boş bir dosyayı kopyalamak için:
-cp -r
+
+**_cp -r_**
 
 Bir dosyayı taşımak için:
-mv kopyalanacak_dosya  kopyalanacağı_yer
+
+**_mv_** kopyalanacak_dosya  kopyalanacağı_yer
+
 
 
 Bir dosyanın içerisindeki ilk 10 satırı terminale yazdırmak için:
-head yazdırılacak dosya
+
+**_head_** yazdırılacak dosya
+
 
 Bir dosyanın içerisindeki son 10 satırı terminale yazdırmak için:
-tail yazdırılacak dosya
+
+**_tail_** yazdırılacak dosya
 
 
 Bulunduğumuz konumda yeni bir text dosyası açmak için:
 nano açılacak_dosyanın_ismi
 dosya içine yazılacak text
-Ctrl O
-Enter
-Ctrl X
+
+**_Ctrl O_**
+**_Enter_**
+**_Ctrl X_**
 
 Terminal penceresine sığmayan metinleri daha rahat okuyabilmek için:
-more
+
+**_more_**
 
 Dosya içeriğini alfabetik olarak sıralamak için:
-sort dosyaadi.txt
+
+**_sort_** dosyaadi.txt
 
 Dosya içeriğini ters sırada alfabetik olarak sıralamak için:
-sort -r dosyaadi.txt
+
+**_sort -r_** dosyaadi.txt
 
 Dosya içeriğini sayısal olarak sıralamak için:
-sort -n dosyaadi.txt
+
+**_sort -n_** dosyaadi.txt
 
 Dosya içeriğini satır uzunluğuna göre sıralamak için:
-sort -k 2 dosyaadi.txt
+
+**_sort -k_** 2 dosyaadi.txt
 
 Kullandığımız network, IP adresimiz, MAC adresimiz gibi bilgileri öğrenmek için:
-İfconfig
+
+**_İfconfig_**
 
 Sadece wireless yani kablosuz ağımız hakkında bilgi almak istersek:
-iwconfig
+
+**_iwconfig_**
+
 sadece wireless ağımız hakkında fakat daha detaylı bilgi verir. 
 
 Herhangi bir IP adresine veya siteye ping gönderip networke bağlı olup olmadığını test etmek için:
-ping siteismi.com
+
+**_ping_** siteismi.com
 veya
-ping IP adresi
+**_ping_** IP adresi
