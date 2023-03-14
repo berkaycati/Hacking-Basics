@@ -72,17 +72,19 @@ bu komut kullanıldığında geri dönüşüm kutusunda veya başka bir yerde te
 Bulunduğumuz dizini(pathwayi) öğrenmek için:
 pwd
  
-
+![p3](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p3.jpeg)
 
 Kullandığımız işletim sistemi ve versiyonu gibi işletim sistemi bilgilerini öğrenmek için:
 uname -a
 Örneğin:
  
+![p4](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p2.jpg)
 
 Bulunduğumuz konumdaki bir dosyanın içeriğini terminale yazdırmak ve okumak için:
 cat dosya ismi
 Örneğin:
  
+![p5](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p4.jpeg)
 
 Bulunduğumuz konumdaki bir dosyanın içeriğini satır numaraları ile birlikte terminale yazdırmak ve okumak için:
 cat -n
@@ -94,6 +96,7 @@ Bulunduğumuz dosyadaki bir kelimeyi filtrelemek ve içerisinde geçen yerleri e
  cat dosyaadi | grep aranacakkelime
 Örneğin:
  
+![p6](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p5.jpg)
 
 Bulunduğumuz konumdaki bir dosyayı kopyalamak için
 cp
@@ -111,9 +114,6 @@ head yazdırılacak dosya
 
 Bir dosyanın içerisindeki son 10 satırı terminale yazdırmak için:
 tail yazdırılacak dosya
-
-
-
 
 
 Bulunduğumuz konumda yeni bir text dosyası açmak için:
