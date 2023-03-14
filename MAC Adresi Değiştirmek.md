@@ -6,7 +6,7 @@ Kali Linux’ta MAC adresi değiştirmek:
 
 2.	Değiştirmek istediğiniz ağ bağlantısının adını (genellikle "eth0" veya "wlan0") not edin.
 
-3.	MAC adresinizi değiştirmek için "**_ifconfig_** [ağ bağlantısı adı] hw ether [yeni MAC adresi]" komutunu kullanın. Örneğin, "**_ifconfig wlan0 hw ether 00:11:22:33:44:55_**" komutuyla yeni bir MAC adresi oluşturabilirsiniz. Yeni MAC adresinizi istediğiniz şekilde belirleyebilirsiniz.
+3.	MAC adresinizi değiştirmek için "**_ifconfig [ağ bağlantısı adı] hw ether [yeni MAC adresi]_**" komutunu kullanın. Örneğin, "**_ifconfig wlan0 hw ether 00:11:22:33:44:55_**" komutuyla yeni bir MAC adresi oluşturabilirsiniz. Yeni MAC adresinizi istediğiniz şekilde belirleyebilirsiniz.
 
 
 4.	"**_ifconfig [ağ bağlantısı adı]_**" komutuyla MAC adresinizin değiştiğini kontrol edin.
@@ -14,4 +14,4 @@ Kali Linux’ta MAC adresi değiştirmek:
 5.	Değişikliği kalıcı hale getirmek istiyorsanız, "**_nano /etc/network/interfaces_**" komutunu kullanarak ağ bağlantınızın ayar dosyasını açın ve "**_hwaddress ether [yeni MAC adresi]_**" satırını ekleyin. Son olarak, kaydedin ve çıkın.
 
 Bu adımlar dışında kali linuxta yüklü olan macchanger toolunu da kullanabilirsiniz. İlgili tool’un kullanımı için macchanger **_–help komutu ile help dokümanını açabilir ve kullanımını inceleyebilirsiniz. 
-Eğer kali makinanızda macchanger yüklü değil ise **_apt install macchanger komutu ile indirebilirsiniz. 
+Eğer kali makinanızda macchanger yüklü değil ise **_apt install macchanger_** komutu ile indirebilirsiniz. 
