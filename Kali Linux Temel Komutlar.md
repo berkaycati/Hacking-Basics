@@ -59,7 +59,7 @@ Bu çıktıda, "dosya.txt" dosyası "rw-" karakterleri ile başlıyor. Bu, dosya
 
 Bulunduğumuz konum klasördeki gizli dosyaları görmek için:
 
-**_ls –a _**
+**_ls –a_**
 
 İçinde bulunduğumuz konuma yeni bir klasör oluşturmak için:
 
