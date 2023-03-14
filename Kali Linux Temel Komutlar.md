@@ -96,7 +96,7 @@ Bulunduğumuz dosyadaki bir kelimeyi filtrelemek ve içerisinde geçen yerleri e
  cat dosyaadi | grep aranacakkelime
 Örneğin:
  
-![p6](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p5.jpg)
+![p6](https://github.com/barbaroskp/Kali_Linux_Commands/blob/main/images/p5.jpeg)
 
 Bulunduğumuz konumdaki bir dosyayı kopyalamak için
 cp
