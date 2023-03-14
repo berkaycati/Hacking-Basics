@@ -34,7 +34,7 @@ apt get update
 çalıştırmak önemlidir. 
 
 Bulunduğumuz konum altındaki herhangi bir dosyayı açmak, içine girmek için kullanacağımız komut:
-cd
+**_cd_**
 
 Bulunduğumuz dosya konumundan bir önceki konuma dönmek için kullanacağımız komut:
 cd ..
